@@ -7,6 +7,8 @@ This repository contains a full implementation of a Convolutional Neural Network
 The project follows the official Keras example and expands it with preprocessing, visualization, model evaluation, confusion matrix, and training diagnostics.
 
 
+
+
 ## ✅ Project Overview
 
 The goal of this project is to build a CNN that can classify handwritten digits (0–9) from the MNIST dataset.
@@ -37,6 +39,8 @@ The workflow includes:
 ## 📂 Dataset
 
 ### MNIST consists of:
+
+![MNIST Input data](https://github.com/mohitrajendramahajan/Digit-Classification-using-MNIST-Dataset-The-Official-Keras-Deep-Neural-Network-Example-for-CNN/blob/main/input%20data.png)
 
 - 60,000 training images
   
@@ -96,6 +100,8 @@ The CNN follows this structure:
 `├── Dense (128 units, ReLU)                     `
 
 `└── Dense (10 units, Softmax)                   `
+
+![CNN Architecture](https://github.com/mohitrajendramahajan/Digit-Classification-using-MNIST-Dataset-The-Official-Keras-Deep-Neural-Network-Example-for-CNN/blob/main/CNN%20Architecture.png))
 
 
 This design extracts hierarchical features and reduces spatial dimensions while increasing depth.
@@ -179,6 +185,7 @@ Shows precision, recall, and F1‑score for each digit.
 - Training vs validation loss
   
 - Confusion matrix heatmap
+  ![Confusion Matrix](https://github.com/mohitrajendramahajan/Digit-Classification-using-MNIST-Dataset-The-Official-Keras-Deep-Neural-Network-Example-for-CNN/blob/main/confussion%20matrix.png)
   
 - Classification report
   
